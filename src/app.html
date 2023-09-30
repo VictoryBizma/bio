@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Mi bio</title>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+	<style>
+		@import url(normalize.css);
+		:root{
+			--black: #0e0e0e;
+			--purple: #5433be;
+			--magenta: #e624af;
+			--cyan: #3df9ea;
+			--white: #effafa;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		button {
+			outline: none;
+			border: none;
+			background-color: transparent;
+			padding: 0;
+			color: inherit;
+			font-family: inherit;
+			font-size: inherit;
+		}
+		a{
+			color: inherit;
+		}
+	</style>
+</html>
