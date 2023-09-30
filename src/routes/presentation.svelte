@@ -21,8 +21,8 @@
             class="button-copy"
             title="Copiar el texto"
             on:click={()=>copyText("victorybizma")}
-        >victorybizma</button>. Soy más de hablar por chat de Voz.
-        Estoy en el ordenador todo el día, así que lo más probable es que te responda. <br> Un gusto ✨
+        >victorybizma</button>. Soy más de hablar por chat de Voz, quiero conocer nuevas personas y
+        estoy en el ordenador todo el día, así que lo más probable es que te responda. <br> Un gusto ✨
     </p>
 </div>
 <style>
