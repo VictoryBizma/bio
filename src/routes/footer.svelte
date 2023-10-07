@@ -7,7 +7,7 @@
 </footer>
 <style>
     footer{
-        grid-column: 1/3;
+        grid-column: 1/13;
         /* border: 1px var(--purple) solid; */
         width: 100%;
         height: 100%;

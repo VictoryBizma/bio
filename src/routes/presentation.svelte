@@ -38,7 +38,7 @@
         border-radius: 10px;
         border: 1px var(--purple) solid;
 
-        grid-column: 1/3;
+        grid-column: 1/13;
     }
     .presentation h1{
         backdrop-filter: blur(10px);

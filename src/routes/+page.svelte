@@ -27,10 +27,9 @@
         width: 100%;
         background-color: var(--black);
         color: var(--white);
+        grid-template-columns: repeat(12, 1fr);
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        align-items: center;
+        place-items: center;
         padding: 30px;
         gap: 30px;
     }

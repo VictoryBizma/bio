@@ -26,6 +26,7 @@
         gap: 10px;
         grid-auto-flow: column;
         text-align: center;
+        grid-column: 2/7;
     }
     .info h4{
         grid-column: 1/3;

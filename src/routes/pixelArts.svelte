@@ -18,6 +18,7 @@
         border-radius: 10px;
         justify-items: center;
         align-items: center;
+        grid-column: 7/11;
     }
     h4{
         grid-column: 1/4;
