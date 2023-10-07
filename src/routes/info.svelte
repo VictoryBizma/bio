@@ -31,5 +31,9 @@
     .info h4{
         grid-column: 1/3;
     }
-
+    @media only screen and (max-device-width: 768px){
+        .info{
+            grid-column: 1/2;
+        }
+    }
 </style>

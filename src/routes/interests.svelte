@@ -238,7 +238,7 @@
         .interests {
             grid-column: 1/2;
             grid-template-columns: 1fr;
-            grid-template-rows: auto repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
         }
     }
 </style>

@@ -35,6 +35,9 @@
         transition: all 100ms;
     }
     @media only screen and (max-device-width: 768px){
+        .pixelArts{
+            grid-column: 1/2;
+        }
         img{
             width: 64px;
             height: 64px;
