@@ -1,3 +1,4 @@
+<h3 class="title">Gustos</h3>
 <section class="interests">
     <div class="list">
         <div class="main-icon">🎶</div>
@@ -112,6 +113,15 @@
 </section>
 
 <style>
+    .title{
+        grid-column: 3/11;
+        color: var(--magenta);
+
+        margin: 0;
+        padding: 10px 50px;
+        user-select: none;
+        border-bottom: 1px var(--magenta) solid;
+    }
     p {
         margin: 0;
     }
@@ -239,6 +249,9 @@
             grid-column: 1/2;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(4, 1fr);
+        }
+        .title{
+            grid-column: 1/2;
         }
     }
 </style>
