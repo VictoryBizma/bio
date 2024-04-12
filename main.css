@@ -1,0 +1,136 @@
+@import url(normalice.css);
+@import url(bio.css);
+@import url(likes.css);
+:root{
+    --black: #051f39;
+    --purple: #4a2480;
+    --magenta: #c53a9d;
+    --yellow: #ff8e80;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--yellow);
+}
+a:visited{
+    color: var(--magenta);
+}
+a:hover{
+    color: var(--yellow);
+    background-color: var(--purple);
+}
+a:active{
+    color: var(--magenta);
+    background-color: var(--purple);
+}
+
+body{
+    background-color: var(--black);
+    display: grid;
+    place-items: center;
+    gap: 25px;
+    color: var(--yellow);
+    font-family: sans-serif;
+    width: 100%;
+    place-content: center;
+    grid-template-columns: 500px;
+    padding: 35px;
+}
+
+p{
+    margin: 0;
+}
+
+section{
+
+    width: 100%;
+    padding: 10px;
+    /* box-sizing: content-box; */
+    display: flex;
+    place-items: center;
+
+}
+
+.separator{
+    width: 50%;
+    height: 1px;
+    background-color: var(--purple);
+    border-radius: 2px;
+}
+
+.fast-likes{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 5px;
+}
+
+.fast-likes .photos{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.fast-likes .photo{
+
+    height: 150px;
+    flex-grow: 1;
+    border-radius: 5px;
+    
+}
+
+.phrases {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.phrases-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.phrases p{
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+    gap: 10px;
+
+    place-items: center;
+    border-radius: 10px;
+
+    border: 1px var(--purple) solid;
+}
+
+footer .links{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-items: center;
+}
+
+footer .links a{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px  var(--purple) solid;
+}
+
+footer .links a span{
+    font-weight: bold;
+}

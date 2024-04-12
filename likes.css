@@ -1,0 +1,44 @@
+.likes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.like{
+
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+/* .like h3{
+    font-style: italic;
+} */
+
+.like .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.like .items > *{
+    margin: 0;
+    flex-grow: 1;
+    border: 1px var(--purple) solid;
+    border-radius: 100px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    place-content: center;
+}
+
+.like .items > *:nth-child(1){
+    font-weight: bold;
+    /* background-color: var(--purple); */
+    /* border: 2px var(--purple) solid; */
+}

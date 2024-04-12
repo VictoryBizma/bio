@@ -1,0 +1,94 @@
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 5px;
+
+    /* border: 1px var(--purple) solid;
+    padding: 15px; */
+    /* border-radius: 30px; */
+}
+
+.bio .bio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bio .name{
+    display: flex;
+    place-items: center;
+    position: relative;
+}
+
+.bio .name h1{
+    display: flex;
+    place-items: center;
+}
+
+.bio .name h1::after{
+    content: "(Bizma Winner)";
+    position: absolute;
+    font-size: 1rem;
+    width: max-content;
+    left: calc(100% + 5px);
+    color: var(--magenta);
+    font-weight: normal;
+}
+
+.bio .main-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.bio .main-photos .sub-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.bio .main-photos .main-photo{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.bio .main-photos .photo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bio .intro{
+    /* background-color: var(--purple); */
+    /* color: var(--black); */
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.bio .intro .first-word{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.bio .data{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.bio .data p{
+    flex-grow: 1;
+    border: 1px var(--purple) solid;
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    place-content: center;
+    text-align: center;
+    margin: 0;
+    /* color: var(--magenta); */
+    /* font-weight: 100; */
+}
